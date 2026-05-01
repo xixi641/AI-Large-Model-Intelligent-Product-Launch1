@@ -27,7 +27,7 @@ Uvicorn：FastAPI的服务器，用于高性能地运行FastAPI应用。
 注意：
 1.**本项目仅为单层分级 此外，项目需要提供接口，以便商品发布系统进行调用。**
 2.**由于训练需要使用nVidia显卡的cuda，使用兼容性更高的torch_directml库，如需使用cuda进行训练，请自行修改，使用torch库。**
-
+3.**web页面部署使用fastapi进行部署，预测模型需要进入docs页面进行查看。**
 
 下载下方的pytorch，放在models目录下即可运行
 
@@ -35,3 +35,14 @@ Uvicorn：FastAPI的服务器，用于高性能地运行FastAPI应用。
 /~33723YJ81T~:/
 链接：https://pan.quark.cn/s/df59a8d55547
 提取码：bwCT
+
+运行方法：
+1.
+在命令行中输入：> python src/main.py server即可启用web页面，默认进入8000端口主页面
+输入http://127.0.0.1:8000/docs进入post请求页面测试预测结果
+2.
+在命令行输入python src/main.py train即可启动模型进行训练
+3.
+在命令行输入python src/main.py predict即可进行模型预测
+4.
+在命令行输入python src/main.py evaluate即可进行模型评估
