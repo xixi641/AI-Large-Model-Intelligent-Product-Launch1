@@ -37,12 +37,12 @@ Uvicorn：FastAPI的服务器，用于高性能地运行FastAPI应用。
 提取码：bwCT
 
 运行方法：
-1.
-在命令行中输入：> python src/main.py server即可启用web页面，默认进入8000端口主页面
+1.<br>
+在命令行中输入：> python src/main.py server即可启用web页面，默认进入8000端口主页面<br>
 输入http://127.0.0.1:8000/docs进入post请求页面测试预测结果
-2.
-在命令行输入python src/main.py train即可启动模型进行训练
-3.
-在命令行输入python src/main.py predict即可进行模型预测
-4.
-在命令行输入python src/main.py evaluate即可进行模型评估
+2.<br>
+在命令行输入python src/main.py train即可启动模型进行训练<br>
+3.<br>
+在命令行输入python src/main.py predict即可进行模型预测<br>
+4.<br>
+在命令行输入python src/main.py evaluate即可进行模型评估<br>
